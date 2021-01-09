@@ -55,7 +55,8 @@ plt.title('The Elbow Method')
 plt.xlabel('Number of Clusters')
 plt.ylabel(' Within CLusters Sum of Squares')
 plt.show()
-# Explore CLusterning solution with scaled data
+
+# Explore CLusterning solution with Standardize Scaled data
 
 kmeans_new = KMeans(5)
 kmeans_new.fit(X_scaled)
